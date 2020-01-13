@@ -10,7 +10,7 @@ export class AppComponent implements OnInit {
     title: string = 'ToDo App';
     task: Task = new Task();
     taskList: Task[] = [];
-    limit: number = 2;
+    limit: number = 10;
     storageKey: string = 'taskList';
 
     ngOnInit(): void {

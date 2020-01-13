@@ -1,10 +1,12 @@
-<div>
+<div class="container">
     <h1>{{title}}</h1>
 
-    <input type="text" [(ngModel)]="task.name" (keydown.enter)="onAddClick()" placeholder="Enter task">
-    <button type="button" class="primary" (click)="onAddClick()">Add</button>
-    <button type="button" (click)="onRemoveAllClick()">Remove All</button>
-
+    <div class="input-group">
+        <input type="text" [(ngModel)]="task.name" (keydown.enter)="onAddClick()" placeholder="Enter task">
+        <button type="button" class="primary" (click)="onAddClick()">+</button>
+    </div>
+        
+    <span (click)="onRemoveAllClick()">Remove All</span>&nbsp;
     <span>Task Count: {{taskList.length}}</span>
 
     <p *ngIf="taskList.length === limit">Maximum active task limit reached</p>
@@ -14,7 +16,4 @@
             {{task.name}}
             <button type="button" class="cancel" (click)="onRemoveClick(i)">x</button>
             <span>{{task.date | date: 'medium'}}</span>
-        </li>
     </ul>
-
-</div>

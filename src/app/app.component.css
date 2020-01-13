@@ -1,21 +1,21 @@
-div {
+.container {
     margin: 0 auto;
-    padding: 10px 50px;
+    padding: 10px 20px;
 
 }
 h1 {
     color: #e84393;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 ul {
     list-style-type: none;
     padding: 0;
 }
 ul li {
-    font-size: 1.5rem;
+    font-size: 1rem;
     border: 1px solid #b2bec3;
     border-bottom: none;
-    padding: 20px;
+    padding: 15px;
 }
 ul li:last-child {
     border-bottom: 1px solid #b2bec3;
@@ -25,38 +25,43 @@ ul li button {
     margin-top: 5px;
 }
 ul li span {
-    font-size: 1rem;
     margin-top: 2px;
     display: block;
 }
 span {
-    font-size: 1rem;
+    font-size: 0.7rem;
 }
-input {
+.input-group {
+    margin-bottom: 10px;
+}
+.input-group input {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1.5rem;
-    display: block;
-    width: 99%;
+    font-size: 1rem;
+    width: 80%;
     height: 50px;
     background-color: #b2bec3;
     border: none;
-    padding: 5px;
-    margin-bottom: 10px;
+    padding: 0 10px;
     outline-color: #e84393;
+    box-sizing: border-box;
+}
+.input-group button {
+    width: 20%;
+    height: 50px;
 }
 button {
-    font-size: 1.5rem;
+    font-size: 1rem;
     background-color: #2d3436;
     color: #fff;
     border: none;
     padding: 10px 20px;
-    margin-right: 10px;
 }
 button:hover {
     background-color: #636e72;
 }
 button.primary {
-    background-color: #e84393;   
+    background-color: #e84393;
+    
 }
 button.primary:hover {
     background-color: #fd79a8;
