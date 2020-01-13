@@ -1,0 +1,66 @@
+div {
+    margin: 0 auto;
+    padding: 10px 50px;    
+}
+h1 {
+    color: #e84393;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    border: 1px solid #b2bec3;
+    border-bottom: none;
+    padding: 10px;
+}
+ul li:last-child {
+    border-bottom: 1px solid #b2bec3;
+}
+ul li button {
+    float: right;
+    margin-top: 5px;
+}
+ul li span {
+    font-size: 8px;
+    margin-top: 2px;
+    display: block;
+}
+span {
+    font-size: 12px;
+}
+input {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    width: 98%;
+    height: 30px;
+    background-color: #b2bec3;
+    border: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    outline-color: #e84393;
+}
+button {
+    background-color: #2d3436;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+button:hover {
+    background-color: #636e72;
+}
+button.primary {
+    background-color: #e84393;   
+}
+button.primary:hover {
+    background-color: #fd79a8;
+}
+button.cancel {
+    border-radius: 50px;
+    background-color: #636e72;
+    padding: 0px 5px 1px;
+}
+button.cancel:hover {
+    background-color: #2d3436;
+}

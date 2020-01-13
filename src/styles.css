@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #636e72;
+    background-color: #dfe6e9;    
+}
